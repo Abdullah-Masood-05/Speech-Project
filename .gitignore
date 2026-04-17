@@ -1,2 +1,45 @@
+# Audio files (large binaries should not be in git)
+*.wav
+*.mp3
+*.m4a
+*.flac
+*.ogg
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+*.egg
+dist/
+build/
+*.whl
+
+# Virtual environments
+venv/
+env/
+.env/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS-generated
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Experimental / scratch notebooks
+exper.ipynb
+another.ipynb
+
+# Temporary / output files
 equalized_speech.wav
+converted_audio.wav
 audio_file.wav
